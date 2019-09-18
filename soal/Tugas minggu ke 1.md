@@ -4,8 +4,9 @@
 
 1. Gunakan fungsi **len()** untuk menghitung panjang variabel
 2. Menggunakan perulangan **for** dan **if else**  
-3. Kombinasikan perulangan dengan **range()**. contoh **'for kata in range(len(var))' **
-4.  WA saya jika tugas sudah selesai :)
+3. Kombinasikan perulangan dengan **range()**. contoh `for kata in range(len(var))' `
+4. Selalu gunakan variabel `sample` sebagai pengerjaan soal
+5.  WA saya jika tugas sudah selesai :)
 
 
 
