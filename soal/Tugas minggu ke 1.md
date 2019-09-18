@@ -3,10 +3,18 @@
 ## Cara mengerjakan tugas
 
 1. Gunakan fungsi **len()** untuk menghitung panjang variabel
+
 2. Menggunakan perulangan **for** dan **if else**  
-3. Kombinasikan perulangan dengan **range()**. contoh `for kata in range(len(var))' `
+
+3. Kombinasikan perulangan dengan **range()**. contoh `for kata in range(len(var)) `
+
 4. Selalu gunakan variabel `sample` sebagai pengerjaan soal
+
 5.  WA saya jika tugas sudah selesai :)
+
+   
+
+> Batas pengumpulan tugas sampai dengan **25/09/2019**
 
 
 
@@ -46,3 +54,8 @@ m
 
 ```
 
+
+
+
+
+### Selamat mengerjakan :)
