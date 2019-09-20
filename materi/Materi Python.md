@@ -20,7 +20,7 @@
 
 
 
-![](https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwial5H7n9_kAhXBX30KHT21CrwQjRx6BAgBEAQ&url=https%3A%2F%2Fcleanprogrammer.net%2Fgit-reference-guide-for-clean-programmers%2F&psig=AOvVaw3ekSWWUqyk_gHm8b5EPkez&ust=1569063674172611)
+![](materi/image/1_N6oVTvcFjYdSLgkR3CZgvg.png)
 
 
 
