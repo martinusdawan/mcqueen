@@ -20,7 +20,7 @@
 
 
 
-![](/home/hinha/Documents/fasilitator/mcqueen/image/1_N6oVTvcFjYdSLgkR3CZgvg.png)
+![](mcqueen/image/1_N6oVTvcFjYdSLgkR3CZgvg.png)
 
 
 
@@ -40,7 +40,7 @@ Git sebenarnya akan memantau semua perubahan yang terjadi pada file proyek. Lalu
 
 Contoh penggunaan pada Git:
 
-![c](/home/hinha/Documents/fasilitator/mcqueen/image/fork-git.png)
+![c](mcqueen/image/fork-git.png)
 
 
 
