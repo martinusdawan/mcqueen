@@ -20,7 +20,7 @@
 
 
 
-![](materi/image/1_N6oVTvcFjYdSLgkR3CZgvg.png)
+![](https://github.com/martinusdawan/mcqueen/blob/master/materi/image/1_N6oVTvcFjYdSLgkR3CZgvg.png)
 
 
 
