@@ -40,7 +40,7 @@ Git sebenarnya akan memantau semua perubahan yang terjadi pada file proyek. Lalu
 
 Contoh penggunaan pada Git:
 
-![c](https://github.com/martinusdawan/mcqueen/blob/master/materi/image/fork-git.png)
+![c](https://github.com/martinusdawan/mcqueen/blob/master/materi/image/fork-git.png	)
 
 
 
