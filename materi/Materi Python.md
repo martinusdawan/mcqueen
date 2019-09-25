@@ -121,3 +121,126 @@ Untuk memungkinkan user memberikan input pada program Anda, gunakan fungsi input
 num = input('Enter a number: ')
 ```
 
+
+
+# Lanjutan
+
+
+
+### Methods
+
+Di Python sebuah *function* dapat dipasang di dalam sebuah *class*, sehingga istilahnya berubah menjadi *method*. Sedangkan *function* yang tidak berada di dalam *class* tetap disebut *function*. *Function* di Python pun ada yang bersifat *anonymous* karena tidak memerlukan nama untuk membuat *function* tersebut dapat dipanggil.
+
+Sebuah *function* di Python biasanya memiliki sebuah parameter dan *return statement*. *Function* di Python memiliki pola sebagai berikut:
+
+```python
+def nama_function_yang_akan_anda_buat (param1, param2, ... param):
+    
+    # kode
+    return sesuatu
+```
+
+
+
+Tipe data yang dikembalikan bisa berbagai macam jenis tipe data yang didukung Python. Begitupun parameter yang akan diterima oleh *function* tersebut. Sebagai contoh mari kita buat berbagai *function* seperti pada kode berikut:
+
+
+
+```python
+def hello():
+    print "Hello world"
+
+def getDBConfig():
+    config = {
+        "driver":"sqlite3",
+        "name":"testing.db",
+        "path":"/home/user/Documents"
+    }
+
+    return config
+
+def getName(id):
+    if id == 1:
+        name = "Alexander Grotesqiue"
+    elif id == 2:
+        name = "Saleh Mahmoud Al Qassam"
+    elif id == 3:
+        name = "Natasha Vorvanova"
+
+    return name
+
+def getHargaDealer(harga):
+    harga_baru = harga + ((harga / 100.0) * 15.0)
+    return harga_baru
+
+def getNumberList(length):
+    x = range(0, length)
+    return x
+
+def getLuasPersegiPanjang(p, l):
+    x = p * l
+    return x
+```
+
+
+
+**Penggunaan**
+
+```python
+hello()
+
+name = getName(3)
+print name
+
+harga_dealer = getHargaDealer(1000000)
+print harga_dealer
+
+number_list = getNumberList(10)
+print number_list
+
+luas = getLuasPersegiPanjang(20, 10)
+print luas
+```
+
+
+
+### Class
+
+
+
+*Class* adalah salah satu cara bagaimana kita membuat sebuah kode yang mempunyai *behaviour* tertentu dan lebih mudah dalam mengorganisasi berbagai fungsi dan *state*-nya. Dalam sebuah *class* kamu dapat menyimpan sebuah *state* tanpa harus membuat banyak *state* bila tidak menggunakan *class*.
+
+Dalam hal ini, kita dapat membuat sebuah objek yang memiliki *variable* dan *method*-nya sendiri. Dan setiap objek yang dihasilkan akan memiliki karakteristik yang berbeda dibandingkan objek lainnya. Dalam sebuah objek tentu ada variabel yang dapat diakses secara langsung (*s*) ataupun dirahasiakan (*private*). 
+
+
+
+```python
+class Parrot:
+
+    # class attribute
+    species = "bird"
+
+    # instance attribute
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+        
+    def printName(self):
+        print(self.name)
+    
+    def printAge(self):
+        print(self.age)
+
+# instantiate the Parrot class
+blu = Parrot("Blu", 10)
+woo = Parrot("Woo", 15)
+
+print(blu.printName())
+print(blu.printAge())
+
+#OUTPUT
+Blu
+10
+
+```
+
